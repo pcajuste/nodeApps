@@ -5,16 +5,18 @@
         <title><%= title %></title>
     </head>
     <body>
-        <% include partials/nav.ejs %>
-        <h2>Contact Us</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eleifend nunc augue, eu efficitur lectus imperdiet non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent euismod magna nisl, sit amet accumsan ante auctor sed. 
-        </p>
-        
+        <div class="container">
+            <% include partials/nav.ejs %>
+            <h2><%= title %> </h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eleifend nunc augue, eu efficitur lectus imperdiet non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent euismod magna nisl, sit amet accumsan ante auctor sed. 
+            </p>
 
 
 
-        <% include partials/footer.ejs %>
-        <% include partials/loadscript.ejs %>
+
+            <% include partials/footer.ejs %>
+            <% include partials/loadscript.ejs %>
+        </div>
     </body>
 </html>
